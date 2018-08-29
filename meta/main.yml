@@ -15,5 +15,5 @@ galaxy_info:
   galaxy_tags:
     - jenkins
   
-  dependencies:
-    - role: codeyourinfra.oracle_java8
+dependencies:
+  - role: codeyourinfra.oracle_java8
