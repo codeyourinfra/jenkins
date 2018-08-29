@@ -2,7 +2,6 @@
 - hosts: containers
   gather_facts: no
   roles:
-    - codeyourinfra.oracle_java8
     - jenkins
   tasks:
     - name: Get Jenkins version
