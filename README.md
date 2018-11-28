@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release](https://img.shields.io/github/release/codeyourinfra/jenkins.svg)]() [![Build status](https://travis-ci.org/codeyourinfra/jenkins.svg?branch=master)](https://travis-ci.org/codeyourinfra/jenkins)
 
-Ansible role to install Jenkins.
+Ansible role to install [Jenkins](https://jenkins.io).
 
 ## Example Playbook
 
