@@ -1,6 +1,6 @@
 # jenkins
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release](https://img.shields.io/github/release/codeyourinfra/jenkins.svg)]() [![Build status](https://travis-ci.org/codeyourinfra/jenkins.svg?branch=master)](https://travis-ci.org/codeyourinfra/jenkins)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release](https://img.shields.io/github/release/codeyourinfra/jenkins.svg)](https://github.com/codeyourinfra/jenkins/releases/latest) [![Build status](https://travis-ci.org/codeyourinfra/jenkins.svg?branch=master)](https://travis-ci.org/codeyourinfra/jenkins) [![Ansible Role](https://img.shields.io/ansible/role/29218.svg)](https://galaxy.ansible.com/codeyourinfra/jenkins) [![Ansible Role downloads](https://img.shields.io/ansible/role/d/29218.svg)](https://galaxy.ansible.com/codeyourinfra/jenkins)
 
 Ansible role to install [Jenkins](https://jenkins.io).
 
