@@ -15,11 +15,11 @@ Ansible role to install [Jenkins](https://jenkins.io).
 
 ## Dependencies
 
-The role is dependent of [Codeyourinfra's Oracle Java 8 Ansible role version 1.0](https://github.com/codeyourinfra/oracle_java8/tree/v1.0), once we need Java to run Jenkins. Java is so installed before the Jenkins installation.
+The role is dependent of [Codeyourinfra's Java 8 Ansible role](https://github.com/codeyourinfra/java8/tree/v1.0), once we need Java to run Jenkins. Java is so installed before the Jenkins installation.
 
 ## Build process
 
-The build process is performed in [Travis CI](https://travis-ci.org/codeyourinfra/jenkins). During the build, the role is tested by using [Molecule](https://molecule.readthedocs.io).
+The build process is performed by [Travis CI](https://travis-ci.org/codeyourinfra/jenkins). During the build, [Molecule](https://molecule.readthedocs.io) is used to test the role.
 
 ## Test yourself
 
