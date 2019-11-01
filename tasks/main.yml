@@ -1,13 +1,3 @@
 ---
-- name: Install required packages
-  apt:
-    name: apt-transport-https
-- name: Add the Jenkins apt key
-  apt_key:
-    url: https://pkg.jenkins.io/debian-stable/jenkins.io.key
-- name: Add the Jenkins repository into sources list
-  apt_repository:
-    repo: deb https://pkg.jenkins.io/debian-stable binary/
-- name: Install latest Jenkins
-  apt:
-    name: jenkins
+- name: Execute the appropriate tasks, depending on the distribution.
+  include: "{{ ansible_distribution | lower }}.yml"

@@ -15,7 +15,7 @@ Ansible role to install [Jenkins](https://jenkins.io).
 
 ## Dependencies
 
-The role is dependent of [Codeyourinfra's Java 8 Ansible role](https://github.com/codeyourinfra/java8/tree/v1.0), once we need Java to run Jenkins. Java is so installed before the Jenkins installation.
+The role is dependent of [Codeyourinfra's Java 8 Ansible role](https://github.com/codeyourinfra/java8), once we need Java to run Jenkins. Java is so installed before the Jenkins installation.
 
 ## Build process
 
@@ -23,11 +23,15 @@ The build process is performed by [Travis CI](https://travis-ci.org/codeyourinfr
 
 ## Test yourself
 
-Inside your [Python virtual environment](https://docs.python.org/3/tutorial/venv.html), run:
+First of all, create your [Python virtual environment](https://docs.python.org/3/tutorial/venv.html) and activate it:
 
-`pip install -r requirements.txt`
+`python -m venv env && source env/bin/activate`
 
-And then:
+After that, install all requirements:
+
+`pip install wheel && pip install -r requirements.txt`
+
+Finally, execute the test:
 
 `molecule test`
 
